@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Portfolio - Believe .S. Mene</title>
+    <style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #1e293b, #0f172a);
+        color: #e2e8f0;
+    }
+    .header {
+        background-color: #0f172a;
+        color: #f8fafc;
+        padding: 50px 20px 30px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 3em;
+        letter-spacing: 1px;
+    }
+    .header p {
+        margin: 8px 0 20px;
+        font-size: 1.3em;
+        color: #cbd5e1;
+    }
+    .profile-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 20px;
+        border: 4px solid #38bdf8;
+        box-shadow: 0 0 10px rgba(56, 189, 248, 0.6);
+    }
+    .linkedin-link {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .linkedin-link a {
+        background-color: #0a66c2;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+    }
+    .linkedin-link a:hover {
+        background-color: #004182;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+        color: #60a5fa;
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    ul.skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    ul.skills li {
+        flex: 1 1 30%;
+        background-color: rgba(255, 255, 255, 0.08);
+        margin: 5px 0;
+        padding: 10px 14px;
+        border-left: 4px solid #3b82f6;
+        border-radius: 6px;
+        text-align: center;
+    }
+    ul:not(.skills) li {
+        background-color: rgba(255, 255, 255, 0.1);
+        margin: 10px 0;
+        padding: 12px 16px;
+        border-left: 5px solid #3b82f6;
+        border-radius: 6px;
+    }
+    a {
+        color: #38bdf8;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .project {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #334155;
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    .project h2 {
+        margin-top: 0;
+        color: #93c5fd;
+    }
+    .tools {
+        font-style: italic;
+        color: #94a3b8;
+    }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Believe .S. Mene</h1>
+        <p>DevOps Engineer | Cloud | CI/CD | Automation</p>
+        <img src="profile-image.jpg" alt="Profile Picture" class="profile-image">
+        <div class="linkedin-link">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I'm a cloud DevOps enthusiast with hands-on experience in automation, cloud infrastructure, 
+            and container-based solutions. I enjoy optimizing workflows through CI/CD pipelines 
+            and working with modern cloud technologies to support smooth and scalable deployments.</p>
+
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>AWS</li>
+            <li>Python</li>
+            <li>CloudFormation</li>
+            <li>CI/CD with Jenkins</li>
+            <li>Ansible</li>
+            <li>GitHub</li>
+            <li>Monitoring: Prometheus</li>
+            <li>Grafana</li>
+        </ul>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Certified Solutions Architect</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <div class="project">
+            <h2>CI/CD Pipeline for Flask Web App</h2>
+            <p><strong>Description:</strong> Set up a complete CI/CD pipeline for a Flask application using GitHub Actions, S3 Bucket, and AWS EC2.</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+                <li>Stored artifacts using S3 bucket</li>
+                <li>Configured GitHub Actions for automated testing and deployment</li>
+                <li>Deployed to AWS EC2 using SSH and managed environment variables securely</li>
+            </ul>
+            <p class="tools"><strong>Tools:</strong> GitHub Actions, S3, AWS EC2, SonaQube, Python.</p>
+            <p><strong>Outcome:</strong> Reduced deployment time and ensured consistent environment for testing and production.</p>
+        </div>
+
+        <div class="project">
+            <h2>Infrastructure Automation with Ansible</h2>
+            <p><strong>Description:</strong> Automated server setup and application deployment using Ansible on Ubuntu-based VMs.</p>
+            <p><strong>Responsibilities:</strong></p>
